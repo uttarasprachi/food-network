@@ -2,8 +2,13 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+/*p{
+    font-size: 12px;
+}*/
 h1{
     font-size: 50px;
+    /*line-height: 20px;
+    margin-top: 80px;*/
 }
 .salmon-color{
     color: salmon;
@@ -11,18 +16,21 @@ h1{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(#00ffff, tomato);
-    padding: 15px 30px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 700;
     border-radius: 20px;
 }
-section{
+.flexible-container{
     display: flex;
+    padding-top: 50px;
 }
 .half-width{
     width: 50%;
     padding-left: 3%;
 }
 .half-width img{
-    width: 80%;
+    width: 70%;
 }
 .middle-banner{
     background-image: url(food-network-main/images/shapes/7.png);
@@ -33,13 +41,63 @@ section{
 .half-width-middle{
     width: 50%;
     padding: 0;
-    margin: 0%;
+    margin: 100px;
 }
 .half-width-middle img{
-    height: 32%;
+    height: 375px;
     padding-left: 180px;
 }
 .half-width-middle p{
     text-align: justify;
-    padding-right: 180px;
+    padding-right: 120px;
+    font-size: 14px;
+}
+.recipie-area{
+    text-align: center;
+}
+.recipie-area p{
+    font-size: 12px;
+    grid-row: auto;
+}
+.full-width{
+    width: 100%;
+}
+.recipie-title-area{
+    display: flex;
+    padding-left: 150px;
+}
+.one-third-width{
+    width: 33px;
+}
+.one-third-width{
+    box-shadow: 10px 10px 40px gray;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.one-third-width img{
+    width: 180px;
+    padding-top: 5px;
+}
+.orange-color{
+    color: orange;
+}
+.gray-color{
+    color: gray;
+}
+.white-color{
+    color: white;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    font-size: 10px;
+}
+.footer-area{
+    background-color: black;
+    width: 100%;
+    height: 150px;
 }
