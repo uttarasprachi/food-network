@@ -101,3 +101,15 @@ footer p{
     width: 100%;
     height: 150px;
 }
+.social-media{
+    box-shadow: 10px 10px 40px gray;
+    width: 30%;
+    height: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 70%;
+    border-radius: 20px;
+}
+.social-media h2{
+    display: inline-flex;
+}
