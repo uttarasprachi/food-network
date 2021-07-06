@@ -24,6 +24,15 @@ h1{
     font-weight: 700;
     border-radius: 20px;
 }
+
+.login-button{
+    text-decoration: none;
+    background-image: linear-gradient(#00ffff, tomato);
+    padding: 5px 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+}
 .flexible-container{
     display: flex;
     padding-top: 50px;
